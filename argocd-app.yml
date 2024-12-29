@@ -10,7 +10,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: default
   source:
-    repoURL: 'https://github.com/KasifZisan/k8s-gitops-dev'
+    repoURL: 'git@github.com:KasifZisan/k8s-gitops-dev.git'
     targetRevision: HEAD
     path: "overlays/dev"
     kustomize:

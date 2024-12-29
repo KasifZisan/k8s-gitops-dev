@@ -5,5 +5,5 @@ resources:
   - ../../base/ingress.yml
 images:
   - name: kasifzisandocker/flask-app
-    newName: "${{ github.ref_name }}/kasifzisandocker/flask-app"
+    newName: "dev/kasifzisandocker/flask-app"
     newTag: "${{ github.sha }}"
