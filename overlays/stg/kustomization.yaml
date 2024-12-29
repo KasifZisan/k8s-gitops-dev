@@ -1,9 +1,0 @@
-namespace: stg
-resources:
-  - ../../base/deployment.yml
-  - ../../base/service.yml
-  - ../../base/ingress.yml
-images:
-  - name: kasifzisandocker/flask-app
-    newName: "${{ github.ref_name }}/kasifzisandocker/flask-app"
-    newTag: "${{ github.sha }}"
