@@ -1,8 +1,8 @@
 namespace: dev
 resources:
-  - ../../base/deployment.yaml
-  - ../../base/service.yaml
-  - ../../base/ingress.yaml
+  - ../base/deployment.yaml
+  - ../base/service.yaml
+  - ../base/ingress.yaml
 images:
   - name: kasifzisandocker/flask-app
     newName: "dev/kasifzisandocker/flask-app"
