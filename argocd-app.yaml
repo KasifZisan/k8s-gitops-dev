@@ -14,7 +14,7 @@ spec:
     targetRevision: HEAD
     path: /
     kustomize:
-      namePrefix: flask-app-
+      namePrefix: dev-
   syncPolicy:
     automated:
       prune: true

@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: ${IMAGE_TAG}  
+        image: kasifzisandocker/flask-app:latest
         ports:
         - containerPort: 5000
