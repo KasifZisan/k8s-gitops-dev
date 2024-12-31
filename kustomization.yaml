@@ -7,5 +7,8 @@ images:
 - name: flask-app
   newName: kasifzisandocker/flask-app
   newTag: latest
+- name: kasifzisandocker/flask-app
+  newName: kasifzisandocker/flask-app
+  newTag: cdce21df5db56bf12c36b254956172138c73416d
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
