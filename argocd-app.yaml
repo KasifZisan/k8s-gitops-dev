@@ -12,7 +12,7 @@ spec:
   source:
     repoURL: 'git@github.com:KasifZisan/k8s-gitops-dev.git'
     targetRevision: HEAD
-    path: "overlays/dev"
+    path: /
     kustomize:
       namePrefix: flask-app-
   syncPolicy:
